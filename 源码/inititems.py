@@ -16,7 +16,6 @@ def init_items(num,total,totalamount,animation):
             screen.blit(loadingtext,((screen.get_width()-720)/2,screen.get_height()/2+160))
         case 1:
             import time,threading,random,copy,datetime
-            import tkinter as tk
             used_times=0
             is_fullscreen=False
             try:
